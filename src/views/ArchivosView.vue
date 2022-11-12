@@ -1,16 +1,8 @@
-<templete>
-<div>
-<b-container class="bv-example-row">
-  <b-row>
-    <b-col>1 of 2</b-col>
-    <b-col>2 of 2</b-col>
-  </b-row>
+<template>
+    <div>
+        <h1>hola</h1>
+    </div>
+</template>
 
-  <b-row>
-    <b-col>1 of 3</b-col>
-    <b-col>2 of 3</b-col>
-    <b-col>3 of 3</b-col>
-  </b-row>
-</b-container>
-</div>
-</templete>
+ 
+ 

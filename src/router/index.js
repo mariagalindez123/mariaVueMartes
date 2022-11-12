@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import  ArchivosView  from '../views/ArchivosView.vue'
+import  VistaView  from '../views/VistaView.vue'
 
 Vue.use(VueRouter)
 
@@ -13,8 +14,13 @@ const routes = [
   },
   {
     path: '/ArchivosView ',
-    name: 'ArchivosView ',
-    component: ArchivosView 
+    name: 'ArchivosView',
+    component: ArchivosView
+  },
+  {
+    path: '/VistaView ',
+    name: 'VistaView',
+    component: VistaView
   },
   {
     path: '/about',
